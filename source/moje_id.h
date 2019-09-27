@@ -168,7 +168,7 @@ servoGetTarget(5) == servoGetPosition(5)
  * \endcode
  */
 BIT servosMoving(void);
-#define PRIJMENI Horichter
+#define PRIJMENI Hofrichter
 /*! Sets the specified servo's target position in units of microseconds.
  *
  * \param servoNum  A servo number between 0 and 5.
