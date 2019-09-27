@@ -132,7 +132,7 @@ servoSetTarget(1, 1500);       // Affects pin P1_2
  * \endcode
  */
 void servosStart(uint8 XDATA * pins, uint8 numPins);
-#define Jan
+#define JMENO Jan
 /*! Stops the library; stops sending servo pulses and turns off Timer 1.
  * After this function runs, the pins that were used for servo pulses will
  * all be configured as general-purpose digital outputs driving low.
@@ -168,7 +168,7 @@ servoGetTarget(5) == servoGetPosition(5)
  * \endcode
  */
 BIT servosMoving(void);
-#define Horichter
+#define PRIJMENI Horichter
 /*! Sets the specified servo's target position in units of microseconds.
  *
  * \param servoNum  A servo number between 0 and 5.
